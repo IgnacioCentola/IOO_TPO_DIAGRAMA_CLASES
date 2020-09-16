@@ -1,0 +1,7 @@
+LineaCredito: agregado constructor, funcion "getOperacionesBySocioEnUnPeriodo"
+Contragarantia ahora compone a Socio
+Socio: agregado campo "contragarantias", funciones "getUtilizadoLinea", "addContragarantia", "addContragarantia"
+Prestamo: agregado constructor
+DocumentoRegistracion: agregado constructor
+DocumentoRegistracion compone a DocRegistracionService
+Socio compone a SocioService
