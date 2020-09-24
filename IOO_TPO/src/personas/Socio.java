@@ -1,4 +1,12 @@
+package personas;
+
+import enums.TipoEmpresa;
+import general.Contragarantia;
+import general.RiesgoVivo;
+import general.UtilizadoDeLinea;
+
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 public class Socio {
@@ -7,16 +15,16 @@ public class Socio {
     private String cuit;
     private String razonSocial;
     private Date fechaInicioActividades;
-    //private TipoEmpresa tipoEmpresa;
+    private TipoEmpresa tipoEmpresa;
     private String actividadPrincipal;
     private String direccion;
     private String telefono;
     private String email;
     private boolean isPleno;
-    //private List<Accionista> accionistas;
-    //private RiesgoVivo riesgoVivo
-    //private UtilizadoDeLinea utilizadoLinea
-    //private List<Contragarantias> contragarantias
+    private List<Accionista> accionistas;
+    private RiesgoVivo riesgoVivo;
+    private UtilizadoDeLinea utilizadoLinea;
+    private List<Contragarantia> contragarantias;
 
 
     public UUID getId() {
