@@ -4,7 +4,7 @@ public class Usuario {
 
     private String username;
     private String psw;
-    private UUID id = UUID.randomUUID();
+    private UUID id;
 
     public Usuario(String username, String psw, UUID id) {
         this.username = username;
